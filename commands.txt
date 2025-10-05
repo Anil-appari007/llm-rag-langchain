@@ -1,0 +1,3 @@
+systemctl start myapp
+systemctl status myapp
+systemctl stop myapp

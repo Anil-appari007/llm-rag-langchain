@@ -1,0 +1,9 @@
+langchain-text-splitters
+langchain-community 
+langgraph
+langchain[openai]
+langchain
+langchain_openai
+langchain-openai
+langchain-chroma
+aiofiles
