@@ -51,6 +51,7 @@ template = """
             SYSTEM: You are a question answer bot.
             Be factual in your response.
             Respond to the following question : {question} only from the below context : {context} .
+            Response should not be more than asked.
             If you don't know the answer, say you don't know
         """
 prompt = PromptTemplate.from_template(template)
@@ -62,4 +63,4 @@ chain = (
     | StrOutputParser()
 )
 
-print(chain.invoke("how to run app"))
+print(chain.invoke("Command to start app"))
